@@ -1,8 +1,8 @@
 <idea-plugin>
     <id>commit-helper-idea-plugin</id>
     <name>Git Commit Helper</name>
-    <vendor email="fulinlin9527@outlook.com" url="https://github.com/AutismSuperman">FuLinLin</vendor>
-    <version>1.4.1</version>
+    <vendor email="xgblack@qq.com" url="https://github.com/xgblack">xgblack</vendor>
+    <version>0.0.1</version>
 
 
     <description><![CDATA[<p>Description notes will be filled by gradle build</p>]]></description>
@@ -10,7 +10,7 @@
     <change-notes><![CDATA[<p>Change notes will be filled by gradle build</p>]]></change-notes>
 
 
-    <idea-version since-build="203.*"/>
+    <idea-version since-build="233.*"/>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
@@ -24,17 +24,17 @@
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
         <applicationService
-                serviceImplementation="com.fulinlin.storage.GitCommitMessageHelperSettings"/>
+                serviceImplementation="cn.xgblack.storage.GitCommitMessageHelperSettings"/>
         <projectService
-                serviceImplementation="com.fulinlin.storage.GitCommitMessageStorage"/>
+                serviceImplementation="cn.xgblack.storage.GitCommitMessageStorage"/>
 
         <applicationConfigurable groupId="null"
                                  id="plugins.gitcommitmessagehelper"
                                  displayName="GitCommitMessageHelper"
-                                 instance="com.fulinlin.configurable.CentralSettingConfigurable"/>
+                                 instance="cn.xgblack.configurable.CentralSettingConfigurable"/>
 
         <applicationConfigurable
-                instance="com.fulinlin.configurable.TemplateConfigurable"
+                instance="cn.xgblack.configurable.TemplateConfigurable"
                 id="plugins.gitcommitmessagehelper.template"
                 groupId="plugins.gitcommitmessagehelper" displayName="Commit Template"/>
 
@@ -45,7 +45,7 @@
 
 
     <actions>
-        <action id="Commit.Button" class="com.fulinlin.action.CreateCommitAction"
+        <action id="Commit.Button" class="cn.xgblack.action.CreateCommitAction"
                 text="Create Commit Message"
                 description="Create commit message"
                 icon="PluginIcons.EDIT">
