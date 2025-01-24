@@ -25,7 +25,7 @@ dependencies {
     api("org.apache.commons:commons-text:1.11.0")
     testImplementation("junit:junit:4.13.2")
     intellijPlatform {
-        local("/Users/xgblack/Applications/IntelliJ IDEA Ultimate 2025.1 EAP.app")
+        local("/Users/xgblack/Applications/IntelliJ IDEA Ultimate.app")
     }
 }
 
