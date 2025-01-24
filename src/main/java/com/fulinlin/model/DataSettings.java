@@ -1,7 +1,5 @@
 package com.fulinlin.model;
 
-import b.j.S;
-
 import java.util.List;
 
 /**
