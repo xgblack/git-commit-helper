@@ -4,8 +4,11 @@ package cn.xgblack.utils;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author fulin
+ * Velocity模板工具类
+ * 
+ * @author xg black
  */
+
 public class VelocityTool extends StringUtils {
 
     private static final String[] numsAry = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};

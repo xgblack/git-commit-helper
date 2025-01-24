@@ -12,9 +12,9 @@ import org.jetbrains.annotations.Nullable;
 import javax.swing.*;
 
 /**
- * 这个类Settings 中的属性被创建的时候
- *
- * @author: fulin
+ * 模板配置类
+ * 
+ * @author xg black
  */
 public class TemplateConfigurable implements SearchableConfigurable {
 

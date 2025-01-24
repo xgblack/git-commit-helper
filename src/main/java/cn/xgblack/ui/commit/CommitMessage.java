@@ -8,7 +8,9 @@ import org.apache.commons.lang3.StringUtils;
 
 
 /**
- * @author fulin
+ * Commit消息实体类
+ * 
+ * @author xg black
  */
 public class CommitMessage {
 

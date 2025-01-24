@@ -9,6 +9,11 @@ import com.intellij.util.xmlb.XmlSerializerUtil;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+/**
+ * Git提交信息存储类
+ *
+ * @author xg black
+ */
 
 @State(name = "GitCommitMessageStorage",
         storages = {@Storage(value = "GitCommitMessageStorage.xml", roamingType = RoamingType.DISABLED)})

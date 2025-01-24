@@ -17,8 +17,11 @@ import com.intellij.openapi.vcs.ui.Refreshable;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * @author fulin
+ * 创建提交动作
+ *
+ * @author xg black
  */
+
 public class CreateCommitAction extends AnAction implements DumbAware {
 
     private final GitCommitMessageHelperSettings settings;

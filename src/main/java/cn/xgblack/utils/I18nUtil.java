@@ -3,6 +3,11 @@ package cn.xgblack.utils;
 import java.text.MessageFormat;
 import java.util.ResourceBundle;
 
+/**
+ * 国际化工具类
+ *
+ * @author xg black
+ */
 
 @Deprecated
 public class I18nUtil {

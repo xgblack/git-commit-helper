@@ -26,6 +26,11 @@ import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.util.Optional;
 
+/**
+ * 模板编辑面板
+ * 
+ * @author xg black
+ */
 
 public class TemplateEditPanel {
     private final AliasTable aliasTable;

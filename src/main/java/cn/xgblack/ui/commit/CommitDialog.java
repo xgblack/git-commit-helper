@@ -9,6 +9,12 @@ import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;
 
+/**
+ * 提交对话框
+ *
+ * @author xg black
+ */
+
 public class CommitDialog extends DialogWrapper {
 
     private final CommitPanel panel;

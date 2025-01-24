@@ -11,6 +11,12 @@ import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;
 
+/**
+ * 中央设置配置类
+ *
+ * @author xg black
+ */
+
 public class CentralSettingConfigurable implements SearchableConfigurable {
 
     private CentralSettingPanel centralSettingPanel;

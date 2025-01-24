@@ -11,8 +11,11 @@ import java.io.StringWriter;
 import java.util.Properties;
 
 /**
- * @author fulin
+ * Velocity工具类
+ *
+ * @author xg black
  */
+
 public class VelocityUtils {
 
     private static VelocityEngine engine;

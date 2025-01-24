@@ -5,10 +5,10 @@ import org.apache.commons.text.StringEscapeUtils;
 
 
 /**
- * @program: git-commit-message-helper
- * @author: fulin
- * @create: 2019-12-06 21:11
- **/
+ * 类型别名实体类
+ * 
+ * @author xg black
+ */
 public class TypeAlias extends DomainObject {
 
     public String title;

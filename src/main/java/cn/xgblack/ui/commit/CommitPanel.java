@@ -1,5 +1,10 @@
 package cn.xgblack.ui.commit;
 
+/**
+ * Commit面板
+ * 
+ * @author xg black
+ */
 import cn.xgblack.localization.PluginBundle;
 import cn.xgblack.model.CentralSettings;
 import cn.xgblack.model.CommitTemplate;

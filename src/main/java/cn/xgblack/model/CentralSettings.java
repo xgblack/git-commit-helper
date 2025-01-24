@@ -2,6 +2,12 @@ package cn.xgblack.model;
 
 import cn.xgblack.model.enums.TypeDisplayStyleEnum;
 
+/**
+ * 中央配置实体类
+ *
+ * @author xg black
+ */
+
 public class CentralSettings {
 
     private TypeDisplayStyleEnum typeDisplayStyle;

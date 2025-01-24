@@ -1,0 +1,10 @@
+<ivy-module version="2.0">
+  <info organisation="localIde" module="IU" revision="IU-251.17181.16"/>
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="Users/xgblack/Applications/IntelliJ IDEA Ultimate 2025.1 EAP.app/Contents" ext="directory" conf="default"/>
+  </publications>
+  <dependencies/>
+</ivy-module>

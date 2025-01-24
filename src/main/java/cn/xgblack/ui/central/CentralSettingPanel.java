@@ -1,5 +1,6 @@
 package cn.xgblack.ui.central;
 
+
 import cn.xgblack.localization.PluginBundle;
 import cn.xgblack.model.DataSettings;
 import cn.xgblack.model.enums.TypeDisplayStyleEnum;
@@ -10,6 +11,12 @@ import com.intellij.ui.JBIntSpinner;
 import javax.swing.*;
 import java.awt.event.ItemEvent;
 import java.util.List;
+
+/**
+ * 中央设置面板
+ *
+ * @author xg black
+ */
 
 public class CentralSettingPanel {
     protected GitCommitMessageHelperSettings settings;

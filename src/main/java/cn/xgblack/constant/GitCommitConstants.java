@@ -1,10 +1,10 @@
 package cn.xgblack.constant;
 
 /**
- * @program: git-commit-message-helper
- * @author: fulin
- * @create: 2019-12-08 11:37
- **/
+ * Git提交相关常量
+ * 
+ * @author xg black
+ */
 public class GitCommitConstants {
 
     public static final String ACTION_PREFIX = "$APP_CONFIG$/GitCommitMessageHelperSettings";

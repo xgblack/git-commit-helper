@@ -7,6 +7,11 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * 描述读取器
+ * 
+ * @author xg black
+ */
 public class DescriptionRead {
     public static String readHtmlFile() {
         StringBuilder content = new StringBuilder();

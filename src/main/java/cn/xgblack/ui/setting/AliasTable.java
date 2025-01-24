@@ -19,10 +19,10 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @program: git-commit-message-helper
- * @author: fulin
- * @create: 2019-12-06 21:21
- **/
+ * 别名表格组件
+ * 
+ * @author xg black
+ */
 public class AliasTable extends JBTable {
 
     private static final Logger log = Logger.getInstance(AliasTable.class);

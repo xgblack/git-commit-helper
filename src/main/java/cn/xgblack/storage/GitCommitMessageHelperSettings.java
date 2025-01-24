@@ -19,11 +19,13 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @program: git-commit-message-helper
- * @author: fulin
- * @create: 2019-12-05 21:13
- **/
-@State(name = "GitCommitMessageHelperSettings",
+ * Git提交消息助手设置类
+ * 
+ * @author xg black
+ */
+
+@State(
+        name = "GitCommitMessageHelperSettings",
         storages = {@Storage(value = GitCommitConstants.ACTION_PREFIX + "-settings.xml")})
 public class GitCommitMessageHelperSettings implements PersistentStateComponent<GitCommitMessageHelperSettings> {
     private static final Logger log = Logger.getInstance(GitCommitMessageHelperSettings.class);

@@ -13,6 +13,12 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.function.Supplier;
 
+/**
+ * 插件资源包
+ *
+ * @author xg black
+ */
+
 public class PluginBundle extends AbstractBundle {
     public static final PluginBundle INSTANCE = new PluginBundle();
 

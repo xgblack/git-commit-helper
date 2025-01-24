@@ -1,5 +1,10 @@
 package cn.xgblack.model;
 
+/**
+ * 消息存储类
+ * 
+ * @author xg black
+ */
 public class MessageStorage {
 
     private CommitTemplate commitTemplate;

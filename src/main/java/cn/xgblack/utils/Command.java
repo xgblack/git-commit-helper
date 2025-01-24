@@ -7,6 +7,12 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
+/**
+ * 命令行工具类
+ *
+ * @author xg black
+ */
+
 public class Command {
     private final File workingDirectory;
     private final String command;

@@ -6,6 +6,12 @@ import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;
 
+/**
+ * 别名编辑器
+ *
+ * @author xg black
+ */
+
 public class AliasEditor extends DialogWrapper {
     private JPanel myPanel;
     private JTextField titleField;

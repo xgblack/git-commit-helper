@@ -3,10 +3,10 @@ package cn.xgblack.model;
 import java.util.List;
 
 /**
- * @program: git-commit-message-helper
- * @author: fulin
- * @create: 2019-12-05 21:22
- **/
+ * 数据配置相关实体类
+ * 
+ * @author xg black
+ */
 public class DataSettings {
     private String template;
     private List<TypeAlias> typeAliases;

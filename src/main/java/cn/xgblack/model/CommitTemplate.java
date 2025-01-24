@@ -1,10 +1,10 @@
 package cn.xgblack.model;
 
 /**
- * @program: git-commit-message-helper
- * @author: fulin
- * @create: 2019-12-08 11:36
- **/
+ * 提交模板实体类
+ * 
+ * @author xg black
+ */
 public class CommitTemplate {
 
     private String type;
